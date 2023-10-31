@@ -13,7 +13,7 @@ export default function Products() {
     },[]);
       return (
     <div className="container">
-    <div className='row'>
+    <div className='row row-gap-4'>
         {products.map((product)=>{
 
             return <div className='product col-md-4'>
