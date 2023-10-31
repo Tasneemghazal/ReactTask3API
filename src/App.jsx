@@ -1,8 +1,16 @@
 import React from 'react'
-
+import Navbar from './components/navbar/Navbar.jsx'
+import Products from './components/products/Products.jsx'
+import { BrowserRouter,Routes,Route } from 'react-router-dom'
 export default function App() {
   return (
-    <div>App</div>
+    <BrowserRouter>
+    <Navbar/>
+    <Routes>
+    <Route path='/products' element={<Products/>}/>
+    </Routes>
+   
+    </BrowserRouter>
   )
 }
 
