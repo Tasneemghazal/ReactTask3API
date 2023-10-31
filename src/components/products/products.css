@@ -1,0 +1,12 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+.pro h2{
+    font-size: 18px;
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.product{
+    border: 1px solid #000;
+    border-radius: 5px;
+}

@@ -1,0 +1,19 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&display=swap');
+
+h2{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 18px;
+}
+h1{
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.dish{
+ 
+    border-radius: 5px;
+}
+.dish img{
+    width: 300px;
+    height: 300px;
+    padding-top: 20px;
+}
