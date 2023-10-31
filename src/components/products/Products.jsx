@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState ,useEffect } from 'react'
+import './products.css'
 export default function Products() {
     let[products,setProducts]=useState([]);
     const getProducts = async()=>{
@@ -15,8 +16,8 @@ export default function Products() {
     <div className='row'>
         {products.map((product)=>{
 
-            return <div className='col-md-4 '>
-                <div className='pro'>
+            return <div className='product col-md-4'>
+                <div className='pro '>
                 <h2>{product.title}</h2>
                 <img src={product.image} className='w-50'/>
                 </div>
