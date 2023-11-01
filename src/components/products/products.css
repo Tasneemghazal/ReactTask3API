@@ -5,8 +5,9 @@
     text-align: center;
     padding: 50px 0;
     font-family: 'Edu TAS Beginner', cursive;
+    color: blue;
 }
-.product{
-    border: 1px solid #000;
-    border-radius: 5px;
+.product img {
+  width: 70%;
+  height: 350px;
 }
