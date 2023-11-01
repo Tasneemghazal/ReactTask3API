@@ -18,8 +18,8 @@ export default function Products() {
 
             return <div className='product col-md-4'>
                 <div className='pro '>
-                <h2>{product.title}</h2>
-                <img src={product.image} className='w-50'/>
+                <img src={product.image} />
+                <h2 className='py-5 text-center my-3'>{product.title}</h2>
                 </div>
             </div>
             
