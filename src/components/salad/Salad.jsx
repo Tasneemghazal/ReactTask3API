@@ -14,13 +14,13 @@ export default function Salad() {
     },[]);
       return (
     <div className="container">
-    <div className='row'>
+    <div className='row row-gap-3'>
         {salad.map((dish)=>{
 
             return <div className='dish col-md-4 my-5'>
                 <div className='dish'>
-                <h2 className='py-2'>{dish.title}</h2>
                 <img src={dish.image_url} className='w-100' />
+                <h2 className='py-2'>{dish.title}</h2>
                 </div>
             </div>
             
